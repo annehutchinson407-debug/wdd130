@@ -53,6 +53,10 @@ article {
     position: relative;
 }
 
+.hero h1 article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -67,7 +71,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
 }
 
 h2 {
@@ -80,11 +84,4 @@ h2 {
 .hero article img {
     float: right;
     width: 125px;
-}
-
-.box {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    padding: 15px;
-    text-align: center;
 }
